@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic global styles */
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography */
+h1 { @apply text-3xl font-display font-bold; } /* H1 (32px) */
+h2 { @apply text-2xl font-display font-bold; } /* H2 (24px) */
+h3 { @apply text-xl font-display font-bold; } /* H3 (18px) */
+p { @apply text-base; } /* Body (16px) */
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
