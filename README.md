@@ -37,8 +37,8 @@ To run PersonaForge locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/kliewerdaniel/PersonaForge01.git
-    cd PersonaForge01/persona-forge
+    git clone https://github.com/kliewerdaniel/PersonaForge04.git
+    cd PersonaForge04/
     ```
 2.  **Install dependencies:**
     ```bash
@@ -50,16 +50,6 @@ To run PersonaForge locally, follow these steps:
     ```
     The application will typically be available at `http://localhost:5173`.
 
-## Project Structure
-
-The project is organized into the following main directories:
-
-*   `persona-forge/`: Contains the main React application.
-*   `specs/`: Contains detailed specification documents for various aspects of the application.
-
-## Contributing
-
-We welcome contributions! Please see our `CONTRIBUTING.md` (if available) for guidelines on how to contribute.
 
 ## License
 
